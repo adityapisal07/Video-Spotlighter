@@ -2,7 +2,7 @@ import streamlit as st
 from googleapiclient.discovery import build
 
 # YouTube Data API setup
-API_KEY = 'AIzaSyBk1MWV7Rw83SjNsfe72XeotvOWOeJEc9w'  # Replace with your own API key
+API_KEY = 'AIzaSyB3GphgEAi2Am39vSkzwAsGpGmvkRaRG3k'  # Replace with your own API key
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 def fetch_youtube_videos(query):
